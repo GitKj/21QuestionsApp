@@ -13,4 +13,3 @@ This is a simple android app of the game "21 Questions".
 
 If you would like to run this app locally, please have Java installed on your computer.
 Online emulators are available to use if you would like to test this app but don't have or want to install Java.
-If you use an online emulator, you must download the .APK file which can be found under: 
