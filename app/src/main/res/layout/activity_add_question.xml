@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    android:gravity="center_horizontal"
+    tools:context=".AddQuestion">
+
+
+    <TextView
+        android:id="@+id/tv_addTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:text="Add a New Question"
+        android:textAlignment="center"
+        android:textColor="#60C6F4"
+        android:textSize="32sp" />
+
+    <EditText
+        android:id="@+id/et_questionInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint='"Enter you question here."'
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="325dp"
+        android:backgroundTint="#03A9F4"
+        android:onClick="addQuestion"
+        android:text="Add to Database" />
+
+    <Button
+        android:id="@+id/btn_Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="370dp"
+        android:backgroundTint="#03A9F4"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/btn_clrDB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="#F40303"
+        android:onClick="clearDatabase"
+        android:text="Clear Database" />
+</RelativeLayout>

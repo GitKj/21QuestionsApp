@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "49926525101",
+    "project_id": "questions-a631d",
+    "storage_bucket": "questions-a631d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49926525101:android:51e420b91ea2c94bf6b624",
+        "android_client_info": {
+          "package_name": "com.example.questionsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49926525101-3hl4l04o87gqamjqc4ofug8p590ior7u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPukYQYbIin_83e7j8DUTwmX-pfPNEsM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49926525101-3hl4l04o87gqamjqc4ofug8p590ior7u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

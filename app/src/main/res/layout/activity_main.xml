@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#048176"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_QuestionBox"
+        android:layout_width="283dp"
+        android:layout_height="99dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:text="Questions will appear here."
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_AddQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="#03A9F4"
+        android:onClick="switchToAddActivity"
+        android:text="Add Question" />
+
+    <Button
+        android:id="@+id/btn_GenerateQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_AddQ"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:backgroundTint="#03A9F4"
+        android:onClick="generateQuestion"
+        android:text="Ask Question" />
+
+    <Button
+        android:id="@+id/btn_ClearQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_GenerateQ"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:backgroundTint="#03A9F4"
+        android:onClick="clearQuestion"
+        android:text="Clear Question" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="21 QUESTIONS"
+        android:textColor="#60C6F4"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/tv_Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="The game that knows no answer."
+        android:textColor="#035291"
+        android:textSize="16sp" />
+
+</RelativeLayout>
